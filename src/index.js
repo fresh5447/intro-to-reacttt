@@ -8,8 +8,7 @@ import './styles.css';
 import NavigationBar from './components/NavigationBar';
 import App from './WebApp/App';
 import ChatApp from './Chatter/ChatApp';
-
-
+import Playground from './Playground/App';
 
 const Home = () => {
   return (
@@ -27,6 +26,7 @@ ReactDOM.render((
         <Route exact path="/" component={Home}/>
         <Route path="/i-do-what-i-want" component={App}/>
         <Route path="/fake-chat" component={ChatApp}/>
+        <Route path="/playground" component={Playground}/>
       </div>
     </div>
   </Router>

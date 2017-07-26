@@ -8,7 +8,7 @@ const NavigationBar = () => {
         <li> <Link to="/"> Home </Link> </li>
         <li> <Link to="/i-do-what-i-want"> Super App </Link> </li>
         <li> <Link to="/fake-chat"> Fake Chat </Link></li>
-        <li> <Link to="/shop"> Shop </Link></li>
+        <li> <Link to="/playground"> Intro To State </Link></li>
       </ul>
     </div>
   )
