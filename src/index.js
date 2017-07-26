@@ -8,9 +8,7 @@ import './styles.css';
 import NavigationBar from './components/NavigationBar';
 import App from './WebApp/App';
 import ChatApp from './Chatter/ChatApp';
-import ShoppingCart from './ShoppingCart/App'
-import Cart from './ShoppingCart/Cart';
-import Products from './ShoppingCart/Products';
+
 
 
 const Home = () => {
@@ -29,11 +27,6 @@ ReactDOM.render((
         <Route exact path="/" component={Home}/>
         <Route path="/i-do-what-i-want" component={App}/>
         <Route path="/fake-chat" component={ChatApp}/>
-          <Switch>
-            <Route exact path="/shop" component={ShoppingCart} />
-            <Route path="/shop/cart" render={Cart}/>
-            <Route path="/shop/products" component={Products}/>
-          </Switch>
       </div>
     </div>
   </Router>
