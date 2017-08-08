@@ -58,3 +58,17 @@
 .chat-container > div {
   width: 33.333%;
 }
+
+.open-btn {
+  background-color: purple;
+  border-radius: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.close-btn {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 24px;
+  color: white;
+}
